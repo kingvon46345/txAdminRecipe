@@ -7,10 +7,8 @@ tasks:
     dest: ./resources
     src: "https://github.com/citizenfx/cfx-server-data"
     subpath: resources
-  - 
-    action: download_file
-    path: ./tmp/files/ghmattimysql.zip
-    url: "https://github.com/GHMatti/ghmattimysql/releases/download/1.3.2/ghmattimysql.zip"
+
+  
   - 
     action: download_file
     path: ./server.cfg
